@@ -16,8 +16,7 @@ def is_disqualified_check(answer):
 def main_check(is_age, is_citizen, is_disqualified):
     if is_age and is_citizen and not is_disqualified:
         return 'Вы имеете право голосовать'
-    else:
-        return 'Вы не имеете права голосовать'
+    return 'Вы не имеете права голосовать'
 
 
 user_age = int(input('Введите возраст:\n'))
